@@ -1,0 +1,27 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+backend/.venv/
+
+# Ignore Node.js-related files
+node_modules/
+frontend/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+frontend/dist/
