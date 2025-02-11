@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10' # Use the Python version you're working with
+          python-version: '3.10'
 
       # Step 3: Install dependencies
       - name: Install dependencies
@@ -30,8 +30,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Step 4: Run tests (optional)
+      # Step 4: Run tests
       - name: Run tests
         run: |
-          cd backend
-          pytest # Replace with your testing framework if different
+          pytest backend/tests/
