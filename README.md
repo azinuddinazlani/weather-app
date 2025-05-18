@@ -20,3 +20,14 @@
   - Pytest for backend testing
 - **External APIs**:
   - OpenWeatherMap API for weather data
+ 
+## Run
+```
+cd backend
+uvicorn main:app --reload
+```
+
+```
+cd frontend
+npm run dev
+```
